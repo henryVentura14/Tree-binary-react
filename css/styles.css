@@ -1,0 +1,98 @@
+html,body{
+	background-color: rgb(235, 235, 235);
+}
+body
+{
+	padding-top: 20px;
+}
+.arbol
+{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: rgb(143, 143, 143);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+header
+{
+	float: left;
+	width: 40px;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+	border-radius: none;
+	-webkit-box-shadow: 0 2px 2px 1px rgba(0,0,0,.2);
+	box-shadow: 0 2px 2px 1px rgba(0,0,0,.2);
+}
+h1,
+i,
+p
+{
+	border-radius: 0;
+	color: rgb(51, 51, 51);
+}
+.centerBlock
+{
+	width: 1366px;
+	height: auto;
+	margin: 10px auto;
+}
+input[type=checkbox]
+{
+	border: none;
+	outline: 0;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-o-appearance: none;
+}
+
+input[type=checkbox]:focus
+{
+	outline: 0;
+}
+
+input[type=checkbox]:checked
+{
+	color: rgb(192, 57, 43);
+}
+
+input[type='text']
+{
+	margin-bottom: 10px;
+}
+
+.red
+{
+	color: rgb(192, 57, 43)
+}
+
+.gray
+{
+	color: gray;
+}
+
+.blue
+{
+	color: rgb(41, 128, 185);
+}
+
+header
+{
+	float: none;
+
+	width: auto;
+
+	background-color: rgb(22, 160, 133);
+}
+
+.input-group
+{
+	margin: 20px 20px 10px;
+}
